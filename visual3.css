@@ -1,0 +1,130 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #CB1900;
+    padding: 10px 0;
+}
+
+.logo-text {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #CB1900;
+    border-color: #CB1900;
+}
+
+.search {
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #CB1900;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content {
+    width: 70%;
+}
+
+.card {
+    background-color: #CB1900;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content {
+    margin-left: 15px;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating span {
+    color: gold;
+    font-size: 1.5em;
+}
+
+.sidebar {
+    width: 13%;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #CB1900;
+}
+
+.recommendation {
+    margin-bottom: 20px;
+}
+
+.recommendation img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 5px solid #000;
+}
